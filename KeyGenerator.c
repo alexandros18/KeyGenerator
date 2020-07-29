@@ -53,7 +53,8 @@ void fill_the_buffer(char *password, int length)
 
 void cls(void)
 {
-    system("clear");
+    system("clear");  //FOR LINUX
+    //system("cls");  FOR WINDWOS
     return;
 }
 
